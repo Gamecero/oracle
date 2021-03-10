@@ -50,7 +50,7 @@ HAVING d.department_name in ('IT','Sales');
 
 ### 查询一的自动跟踪的执行计划：
 
-![image-20210309210804757](D:\oracle\oracle\oracle\test1\img\image-20210309210804757.png)
+![image-20210309210804757](https://github.com/Gamecero/oracle/blob/main/test1/img/image-20210309210804757.png)
 
 ### 查询二：
 
