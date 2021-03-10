@@ -46,7 +46,7 @@ HAVING d.department_name in ('IT','Sales');
 
 ### 查询一
 
-![image-20210309191104552](D:\oracle\oracle\oracle\test1\img\image-20210309191104552.png)
+![image-20210309191104552](https://github.com/Gamecero/oracle/blob/main/test1/img/image-20210309191104552.png)
 
 ### 查询一的自动跟踪的执行计划：
 
@@ -54,11 +54,11 @@ HAVING d.department_name in ('IT','Sales');
 
 ### 查询二：
 
-![image-20210309191032280](D:\oracle\oracle\oracle\test1\img\image-20210309191032280.png)
+![image-20210309191032280](https://github.com/Gamecero/oracle/blob/main/test1/img/image-20210309191032280.png)
 
 ### 查询二的自动跟踪的执行计划
 
-![image-20210309210609262](D:\oracle\oracle\oracle\test1\img\image-20210309210609262.png)
+![image-20210309210609262](https://github.com/Gamecero/oracle/blob/main/test1/img/image-20210309210609262.png)
 
 ## 查询语句分析结果
 
@@ -68,11 +68,11 @@ HAVING d.department_name in ('IT','Sales');
 
 我对查询一进行优化指导，具体结果如下：
 
-![image-20210310152212006](D:\oracle\oracle\oracle\test1\img\image-20210310152212006.png)
+![image-20210310152212006](https://github.com/Gamecero/oracle/blob/main/test1/img/image-20210310152212006.png)
 
 根据优化指导的建议，我开始创建索引：
 
-![image-20210310190714327](D:\oracle\oracle\oracle\test1\img\image-20210310190714327.png)
+![image-20210310190714327](https://github.com/Gamecero/oracle/blob/main/test1/img/image-20210310190714327.png)
 
 ## 个人设计的查询语句
 
@@ -88,4 +88,4 @@ and j.job_id in ('AD_PRES','AD_VP','IT_PROG')
 GROUP BY j.job_id;
 ```
 
-![image-20210310215949226](D:\oracle\oracle\oracle\test1\img\image-20210310215949226.png)
+![image-20210310215949226](https://github.com/Gamecero/oracle/blob/main/test1/img/image-20210310215949226.png)
