@@ -20,47 +20,47 @@ Oracle有一个开发者角色资源，可以创建表，过程，诸如此类�
 
 - 登录
 
-![login](img\login.png)
+![login](https://github.com/Gamecero/oracle/blob/main/test2/img/login.png)
 
 - 创建角色con_res_zrf并授权：
 
-![role&grant](img\role&grant.png)
+![role&grant](https://github.com/Gamecero/oracle/blob/main/test2/img/role&grant.png)
 
 - 创建用户new_zrf，并授权和分配空间
 
-![role&grant](img\role&grant.png)
+![role&grant](https://github.com/Gamecero/oracle/blob/main/test2/img/role&grant.png)
 
 2.第2步：
 
 - 新用户new_user连接到pdborcl
 
-![login_zrf](img\login_zrf.png)
+![login_zrf](https://github.com/Gamecero/oracle/blob/main/test2/img/login_zrf.png)
 
 - 创建表mytable
 
-![mytable](img\mytable.png)
+![mytable](https://github.com/Gamecero/oracle/blob/main/test2/img/mytable.png)
 
 - 创建视图myview
 
-![view](img\view.png)
+![view](https://github.com/Gamecero/oracle/blob/main/test2/img/view.png)
 
 - 插入数据
 
-![insert](img\insert.png)
+![insert](https://github.com/Gamecero/oracle/blob/main/test2/img/insert.png)
 
 - 将myview的SELECT对象权限授予hr用户。
 
-![grant_view](img\grant_view.png)
+![grant_view](https://github.com/Gamecero/oracle/blob/main/test2/img/grant_view.png)
 
 3.第3步：
 
 - 用户hr连接到pdborcl，查询new_zrf授予它的视图myview
 
-![select_view](img\select_view.png)
+![select_view](https://github.com/Gamecero/oracle/blob/main/test2/img/select_view.png)
 
 - 查询其他用户的视图，进行共享测试
 
-![share_ww](img\share_ww.png)
+![share_ww](https://github.com/Gamecero/oracle/blob/main/test2/img/share_ww.png)
 
 - 向其他用户写入数据并查询
 
@@ -70,15 +70,15 @@ Oracle有一个开发者角色资源，可以创建表，过程，诸如此类�
 
 - 登录
 
-![login_system](img\login_system.png)
+![login_system](https://github.com/Gamecero/oracle/blob/main/test2/img/login_system.png)
 
 - 查看表空间的数据库文件
 
-![pace_data](img\pace_data.png)
+![pace_data](https://github.com/Gamecero/oracle/blob/main/test2/img/pace_data.png)
 
 - 查看每个文件的磁盘占用情况
 
-![cipan](img\cipan.png)
+![cipan](https://github.com/Gamecero/oracle/blob/main/test2/img/cipan.png)
 
 ## 实验总结
 
