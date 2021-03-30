@@ -24,45 +24,45 @@
 
   创建表空间：
 
-  ![create_spacetable](D:\oracle\oracle\oracle\test3\img\create_spacetable.png)
+  ![create_spacetable](https://github.com/Gamecero/oracle/tree/main/test3/img/create_spacetable.png)
 
   使得自己用户在表空间（USERS、USERS02、USERS03）不做现额：
 
-  ![change_user](D:\oracle\oracle\oracle\test3\img\change_user.png)
+  ![change_user](https://github.com/Gamecero/oracle/tree/main/test3/img/change_user.png)
 
   ## 二、以自己的账号new_zrf身份登录,并运行脚本文件test3.sql:
 
   获取脚本：
   
-  ![cat](D:\oracle\oracle\oracle\test3\img\cat.png)
+  ![cat](https://github.com/Gamecero/oracle/tree/main/test3/img/cat.png)
   
   账号登录：
   
-  ![login](D:\oracle\oracle\oracle\test3\img\login.png)
+  ![login](https://github.com/Gamecero/oracle/tree/main/test3/img/login.png)
   
   运行该脚本后，进行分区，创建了两个分区表：
   
-  ![run_test3](D:\oracle\oracle\oracle\test3\img\run_test3.png)
+  ![run_test3](https://github.com/Gamecero/oracle/tree/main/test3/img/run_test3.png)
   
   在分区表orders中插入一万行数据，order_details中插入三万行数据：
   
-  ![count](D:\oracle\oracle\oracle\test3\img\count.png)
+  ![count](https://github.com/Gamecero/oracle/tree/main/test3/img/count.png)
   
-  ![count2](D:\oracle\oracle\oracle\test3\img\count2.png)
+  ![count2](https://github.com/Gamecero/oracle/tree/main/test3/img/count2.png)
   
   ## 三、插入数据的语句和查询数据的语句，并分析语句的执行计划。
   
   查询语句：
   
-  ![select1](D:\oracle\oracle\oracle\test3\img\select1.png)
+  ![select1](https://github.com/Gamecero/oracle/tree/main/test3/img/select1.png)
   
-  ![select2](D:\oracle\oracle\oracle\test3\img\select2.png)
+  ![select2](https://github.com/Gamecero/oracle/tree/main/test3/img/select2.png)
 
 优化指导：
 
-![instruction1](D:\oracle\oracle\oracle\test3\img\instruction1.png)
+![instruction1](https://github.com/Gamecero/oracle/tree/main/test3/img/instruction1.png)
 
-![instruction2](D:\oracle\oracle\oracle\test3\img\instruction2.png)
+![instruction2](https://github.com/Gamecero/oracle/tree/main/test3/img/instruction2.png)
 
 ## 实验总结
 
