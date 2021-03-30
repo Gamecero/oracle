@@ -4,9 +4,15 @@
 
 ### 一、登录
 
+![image-20210309210804757](https://github.com/Gamecero/oracle/blob/main/In_Memory/img/login.png)
+
 ### 二、创建表sales，插入100万条记录
 
+![image-20210309210804757](https://github.com/Gamecero/oracle/blob/main/In_Memory/img/table.png)
+
 ### 三、插入100万行数据
+
+![image-20210309210804757](https://github.com/Gamecero/oracle/blob/main/In_Memory/img/insert.png)
 
 ### 四、进行IN-Memory前后的查询对比
 
@@ -14,11 +20,17 @@
 
 #### 两次执行:
 
+![image-20210309210804757](https://github.com/Gamecero/oracle/blob/main/In_Memory/img/in-memory-before.png)
+
 #### in-memory：
+
+![image-20210309210804757](https://github.com/Gamecero/oracle/blob/main/In_Memory/img/inmemory.png)
 
 #### in-memory后：
 
 #### 两次执行:
+
+![image-20210309210804757](https://github.com/Gamecero/oracle/blob/main/In_Memory/img/in-memory-after.png)
 
 ## 具体代码如下：
 
