@@ -26,7 +26,7 @@
 
   ![create_spacetable](https://github.com/Gamecero/oracle/raw/main/test3/img/create_spacetable.png)
 
-  使得自己用户在表空间（USERS、USERS02、USERS03）不做现额：
+  使得自己用户在表空间（USERS、USERS02、USERS03）不做限额：
 
   ![change_user](https://github.com/Gamecero/oracle/raw/main/test3/img/change_user.png)
 
