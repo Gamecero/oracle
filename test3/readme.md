@@ -315,9 +315,13 @@
   
   查询语句：
   
+  sql_1
+  
   ![select1](https://github.com/Gamecero/oracle/raw/main/test3/img/select1.png)
   
-  ![select2](https://github.com/Gamecero/oracle/raw/main/test3/img/select2.png)
+  sql_2
+  
+  ![select2](https://github.com/Gamecero/oracle/raw/main/test3/img/select2.png)根据sql_1，sql_2比较，在orders数据量为10000,order_details数据量为30000时，有分区比无分区查找数据优势更大。
 
 优化指导：
 
