@@ -852,6 +852,8 @@ select * from VIEW_ORDER_DETAILS where order_id=1;
 
 ### 八、SQL语句的应用
 
+#### ①查询
+
 1.查询某个员工的信息
 
 ![select1-1](https://github.com/Gamecero/oracle/raw/main/test4/img/select1-1.png)
@@ -901,6 +903,20 @@ SELECT * FROM employees START WITH EMPLOYEE_ID = 111 CONNECT BY PRIOR EMPLOYEE_I
 截图如下：
 
 ![select7](https://github.com/Gamecero/oracle/raw/main/test4/img/select7.png)
+
+#### ②增加
+
+![add](https://github.com/Gamecero/oracle/raw/main/test4/img/add.png)
+
+#### ③修改
+
+![mod](https://github.com/Gamecero/oracle/raw/main/test4/img/mod.png)
+
+④删除
+
+![del1](https://github.com/Gamecero/oracle/raw/main/test4/img/del1.png)
+
+![del2](https://github.com/Gamecero/oracle/raw/main/test4/img/del2.png)
 
 ## 实验总结
 
