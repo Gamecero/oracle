@@ -28,7 +28,7 @@ create or replace PACKAGE MyPack IS
 END MyPack;
 ```
 
-![package-1](D:\oracle\oracle\oracle\test5\img\package-1.png)
+![package-1](https://github.com/Gamecero/oracle/raw/main/test5/img/package-1.png)
 
 ### 二、在MyPack中创建一个函数SaleAmount ，查询部门表，统计每个部门的销售总金额，每个部门的销售额是由该部门的员工(ORDERS.EMPLOYEE_ID)完成的销售额之和。函数SaleAmount要求输入的参数是部门号，输出部门的销售金额。
 
@@ -47,7 +47,7 @@ END MyPack;
 
 截图如下：
 
-![package-2](D:\oracle\oracle\oracle\test5\img\package-2.png)
+![package-2](https://github.com/Gamecero/oracle/raw/main/test5/img/package-2.png)
 
 ### 三、在MyPack中创建一个过程，在过程中使用游标，递归查询某个员工及其所有下属，子下属员工。过程的输入参数是员工号，输出员工的ID,姓名，销售总金额。信息用dbms_output包中的put或者put_line函数。输出的员工信息用左添加空格的多少表示员工的层次（LEVEL）。比如下面显示5个员工的信息：
 
@@ -74,7 +74,7 @@ END MyPack;
 
 截图如下：
 
-![package-3](D:\oracle\oracle\oracle\test5\img\package-3.png)
+![package-3](https://github.com/Gamecero/oracle/raw/main/test5/img/package-3.png)
 
 ### 四、问题
 
@@ -99,7 +99,7 @@ select MyPack.Get_SaleAmount(11) AS 部门11应收金额,MyPack.Get_SaleAmount(1
 
 截图如下：
 
-![test-1](D:\oracle\oracle\oracle\test5\img\test-1.png)
+![test-1](https://github.com/Gamecero/oracle/raw/main/test5/img/test-1.png)
 
 5.2过程Get_Employees()测试代码：
 
@@ -119,7 +119,7 @@ END;
 
 截图如下：
 
-![test-2](D:\oracle\oracle\oracle\test5\img\test-2.png)
+![test-2](https://github.com/Gamecero/oracle/raw/main/test5/img/test-2.png)
 
 ## 实验总结
 
