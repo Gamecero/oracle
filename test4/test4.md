@@ -29,15 +29,15 @@ grant create view to new_zrf;
 
 截图如下：
 
-![grant-1](D:\oracle\oracle\oracle\test4\img\grant-1.png)
+![grant-1](https://github.com/Gamecero/oracle/raw/main/test4/img/grant-1.png)
 
-![grant-2](D:\oracle\oracle\oracle\test4\img\grant-2.png)
+![grant-2](https://github.com/Gamecero/oracle/raw/main/test4/img/grant-2.png)
 
 ### 二、登录自己的用户
 
 截图如下：
 
-![login-1](D:\oracle\oracle\oracle\test4\img\login-1.png)
+![login-1](https://github.com/Gamecero/oracle/raw/main/test4/img/login-1.png)
 
 ### 三、确认用户内无任何与本次实验相同的数据
 
@@ -102,9 +102,9 @@ end;
 
 截图如下：
 
-![delete](D:\oracle\oracle\oracle\test4\img\delete.png)
+![delete](https://github.com/Gamecero/oracle/raw/main/test4/img/delete.png)
 
-![complete-1](D:\oracle\oracle\oracle\test4\img\complete-1.png)
+![complete-1](https://github.com/Gamecero/oracle/raw/main/test4/img/complete-1.png)
 
 ### 四、进行数据库的初步操作
 
@@ -812,39 +812,39 @@ select * from VIEW_ORDER_DETAILS where order_id=1;
 
 截图如下：
 
-![select1](D:\oracle\oracle\oracle\test4\img\select1.png)
+![select1](https://github.com/Gamecero/oracle/raw/main/test4/img/select1.png)
 
 2、查询分区
 
 2.1查询分区情况
 
-![select2-1](D:\oracle\oracle\oracle\test4\img\select2-1.png)
+![select2-1](https://github.com/Gamecero/oracle/raw/main/test4/img/select2-1.png)
 
 2.2查询分区索引情况
 
-![select2-2](D:\oracle\oracle\oracle\test4\img\select2-2.png)
+![select2-2](https://github.com/Gamecero/oracle/raw/main/test4/img/select2-2.png)
 
 2.3查询一个分区中的数据
 
-![select2-3](D:\oracle\oracle\oracle\test4\img\select2-3.png)
+![select2-3](https://github.com/Gamecero/oracle/raw/main/test4/img/select2-3.png)
 
 3、查询表得统计信息
 
-![select3-1](D:\oracle\oracle\oracle\test4\img\select3-1.png)
+![select3-1](https://github.com/Gamecero/oracle/raw/main/test4/img/select3-1.png)
 
-![select3-2](D:\oracle\oracle\oracle\test4\img\select3-2.png)
+![select3-2](https://github.com/Gamecero/oracle/raw/main/test4/img/select3-2.png)
 
 4、查看数据文件的使用情况
 
-![select-4-1](D:\oracle\oracle\oracle\test4\img\select-4-1.png)
+![select-4-1](https://github.com/Gamecero/oracle/raw/main/test4/img/select-4-1.png)
 
 5、查看表空间的使用情况
 
-![select-5-1](D:\oracle\oracle\oracle\test4\img\select-5-1.png)
+![select-5-1](https://github.com/Gamecero/oracle/raw/main/test4/img/select-5-1.png)
 
 6、查看数据文件大小
 
-![look](D:\oracle\oracle\oracle\test4\img\look.png)
+![look](https://github.com/Gamecero/oracle/raw/main/test4/img/look.png)
 
 
 
@@ -854,7 +854,7 @@ select * from VIEW_ORDER_DETAILS where order_id=1;
 
 1.查询某个员工的信息
 
-![select1-1](D:\oracle\oracle\oracle\test4\img\select1-1.png)
+![select1-1](https://github.com/Gamecero/oracle/raw/main/test4/img/select1-1.png)
 
 2.递归查询某个员工及其所有下属，子下属员工。
 
@@ -872,35 +872,35 @@ SELECT * FROM employees START WITH EMPLOYEE_ID = 111 CONNECT BY PRIOR EMPLOYEE_I
 
 截图如下：
 
-![select2](D:\oracle\oracle\oracle\test4\img\select2.png)
+![select2](https://github.com/Gamecero/oracle/raw/main/test4/img/select2.png)
 
 3.查询订单表，并且包括订单的订单应收货款: Trade_Receivable= sum(订单详单表.ProductNum*订单详单表.ProductPrice)- Discount。
 
 截图如下:
 
-![select3](D:\oracle\oracle\oracle\test4\img\select3.png)
+![select3](https://github.com/Gamecero/oracle/raw/main/test4/img/select3.png)
 
 4.查询订单详表，要求显示订单的客户名称和客户电话，产品类型用汉字描述。
 
 截图如下：
 
-![select4](D:\oracle\oracle\oracle\test4\img\select4.png)
+![select4](https://github.com/Gamecero/oracle/raw/main/test4/img/select4.png)
 
 5.查询出所有空订单，即没有订单详单的订单。
 
 截图如下：
 
-![select5](D:\oracle\oracle\oracle\test4\img\select5.png)
+![select5](https://github.com/Gamecero/oracle/raw/main/test4/img/select5.png)
 
 6.查询部门表，同时显示部门的负责人姓名。
 
-![select6](D:\oracle\oracle\oracle\test4\img\select6.png)
+![select6](https://github.com/Gamecero/oracle/raw/main/test4/img/select6.png)
 
 7.查询部门表，统计每个部门的销售总金额。
 
 截图如下：
 
-![select7](D:\oracle\oracle\oracle\test4\img\select7.png)
+![select7](https://github.com/Gamecero/oracle/raw/main/test4/img/select7.png)
 
 ## 实验总结
 
