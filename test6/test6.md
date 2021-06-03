@@ -46,11 +46,11 @@
 
 ## 3.类图设计
 
-![class_img](D:\oracle\oracle\oracle\test6\img\class_img.png)
+![class_img](https://github.com/Gamecero/oracle/raw/main/test6/img/class_img.png)
 
 ## 4.数据库设计
 
-![sql_design](D:\oracle\oracle\oracle\test6\img\sql_design.png)
+![sql_design](https://github.com/Gamecero/oracle/raw/main/test6/img/sql_design.png)
 
 <div id="USERS"></div>
 
@@ -176,9 +176,9 @@ CREATE TABLESPACE train_public logging  DATAFILE '/home/oracle/app/oracle/oradat
 
 表空间创建成功截图：
 
-![creat_table_space](D:\oracle\oracle\oracle\test6\img\create_table_space.png)
+![creat_table_space](https://github.com/Gamecero/oracle/raw/main/test6/img/create_table_space.png)
 
-![create_table_space2](D:\oracle\oracle\oracle\test6\img\create_table_space2.png)
+![create_table_space2](https://github.com/Gamecero/oracle/raw/main/test6/img/create_table_space2.png)
 
 
 
@@ -343,23 +343,23 @@ select TABLE_NAME from dba_tables where TABLESPACE_NAME='TRAIN_PUBLIC';
 
 创建表截图：
 
-![create_table_manage](D:\oracle\oracle\oracle\test6\img\create_table_manage.png)
+![create_table_manage](https://github.com/Gamecero/oracle/raw/main/test6/img/create_table_manage.png)
 
-![create_table_train_user](D:\oracle\oracle\oracle\test6\img\create_table_train_user.png)
+![create_table_train_user](https://github.com/Gamecero/oracle/raw/main/test6/img/create_table_train_user.png)
 
-![create_table_station](D:\oracle\oracle\oracle\test6\img\create_table_station.png)
+![create_table_station](https://github.com/Gamecero/oracle/raw/main/test6/img/create_table_station.png)
 
-![create_table_train_order](D:\oracle\oracle\oracle\test6\img\create_table_train_order.png)
+![create_table_train_order](https://github.com/Gamecero/oracle/raw/main/test6/img/create_table_train_order.png)
 
-![create_table_train_num](D:\oracle\oracle\oracle\test6\img\create_table_train_num.png)
+![create_table_train_num](https://github.com/Gamecero/oracle/raw/main/test6/img/create_table_train_num.png)
 
-![create_table_seat](D:\oracle\oracle\oracle\test6\img\create_table_seat.png)
+![create_table_seat](https://github.com/Gamecero/oracle/raw/main/test6/img/create_table_seat.png)
 
-![create_table_ticket](D:\oracle\oracle\oracle\test6\img\create_table_ticket.png)
+![create_table_ticket](https://github.com/Gamecero/oracle/raw/main/test6/img/create_table_ticket.png)
 
 验证表是否创建在对应的表空间：
 
-![select_table](D:\oracle\oracle\oracle\test6\img\select_table.png)
+![select_table](https://github.com/Gamecero/oracle/raw/main/test6/img/select_table.png)
 
 插入数据：
 
@@ -606,9 +606,9 @@ select count(*) from train_order where pay_info = '已支付';
 
 验证数据是否插入成功：
 
-![select_count1](D:\oracle\oracle\oracle\test6\img\select_count1.png)
+![select_count1](https://github.com/Gamecero/oracle/raw/main/test6/img/select_count1.png)
 
-![select_count2](D:\oracle\oracle\oracle\test6\img\select_count2.png)
+![select_count2](https://github.com/Gamecero/oracle/raw/main/test6/img/select_count2.png)
 
 ## 6.设计权限及用户分配方案,两类角色，两个用户
 
@@ -659,11 +659,11 @@ GRANT  c##t_user TO  c##train_user;
 
 成功截图如下：
 
-![create_role](D:\oracle\oracle\oracle\test6\img\create_role.png)
+![create_role](https://github.com/Gamecero/oracle/raw/main/test6/img/create_role.png)
 
-![grant_role](D:\oracle\oracle\oracle\test6\img\grant_role.png)
+![grant_role](https://github.com/Gamecero/oracle/raw/main/test6/img/grant_role.png)
 
-![create_user](D:\oracle\oracle\oracle\test6\img\create_user.png)
+![create_user](https://github.com/Gamecero/oracle/raw/main/test6/img/create_user.png)
 
 ## 7.在数据库中建立一个程序包，在包中用PL/SQL语言设计一些存储过程和函数，实现比较复杂的业务逻辑，用模拟数据进行执行计划分析
 
@@ -729,7 +729,7 @@ END TrainPack;
 
 创建成功：
 
-![package_success](D:\oracle\oracle\oracle\test6\img\package_success.png)
+![package_success](https://github.com/Gamecero/oracle/raw/main/test6/img/package_success.png)
 
 测试：
 
@@ -749,9 +749,9 @@ END;
 
 测试结果：
 
-![test_function](D:\oracle\oracle\oracle\test6\img\test_function.png)
+![test_function](https://github.com/Gamecero/oracle/raw/main/test6/img/test_function.png)
 
-![success_PROCEDURE](D:\oracle\oracle\oracle\test6\img\success_PROCEDURE.png)
+![success_PROCEDURE](https://github.com/Gamecero/oracle/raw/main/test6/img/success_PROCEDURE.png)
 
 ## 8.设计手动备份方案
 
@@ -767,9 +767,9 @@ create user c##zrf_r identified by 123 default tablespace bp quota unlimited on 
 grant connect,resource,recovery_catalog_owner to c##zrf_r;
 ```
 
-![rman_create_table](D:\oracle\oracle\oracle\test6\img\rman_create_table.png)
+![rman_create_table](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_create_table.png)
 
-![rman_create_user](D:\oracle\oracle\oracle\test6\img\rman_create_user.png)
+![rman_create_user](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_create_user.png)
 
 ### 8.2连接RMAN恢复目录数据库
 
@@ -788,9 +788,9 @@ rman catalog c##zrf_r/123 target /
 register database;
 ```
 
-![rman_conn](D:\oracle\oracle\oracle\test6\img\rman_conn.png)
+![rman_conn](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_conn.png)
 
-![rman_conn_target](D:\oracle\oracle\oracle\test6\img\rman_conn_target.png)
+![rman_conn_target](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_conn_target.png)
 
 ### 8.3通道分配
 
@@ -807,9 +807,9 @@ allocate channel ch3 device type disk;
 show all;
 ```
 
-![rman_disk](D:\oracle\oracle\oracle\test6\img\rman_disk.png)
+![rman_disk](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_disk.png)
 
-![rman_show](D:\oracle\oracle\oracle\test6\img\rman_show.png)
+![rman_show](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_show.png)
 
 ### 8.4归档模式下备份与恢复
 
@@ -829,13 +829,13 @@ rman catalog c##zrf_r/123 target /
 backup database;
 ```
 
-![archiv_no](D:\oracle\oracle\oracle\test6\img\archiv_no.png)
+![archiv_no](https://github.com/Gamecero/oracle/raw/main/test6/img/archiv_no.png)
 
-![archiv_yes](D:\oracle\oracle\oracle\test6\img\archiv_yes.png)
+![archiv_yes](https://github.com/Gamecero/oracle/raw/main/test6/img/archiv_yes.png)
 
-![rman_backup_1](D:\oracle\oracle\oracle\test6\img\rman_backup_1.png)
+![rman_backup_1](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_backup_1.png)
 
-![rman_backup_2](D:\oracle\oracle\oracle\test6\img\rman_backup_2.png)
+![rman_backup_2](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_backup_2.png)
 
 ### 8.5测试备份情况
 
@@ -846,7 +846,7 @@ cd /home/oracle/app/oracle/recovery_area/ORCL/backupset/
 ls
 ```
 
-![rman_ls](D:\oracle\oracle\oracle\test6\img\rman_ls.png)
+![rman_ls](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_ls.png)
 
 ### 8.6测试恢复功能
 
@@ -891,33 +891,33 @@ ls
 
 1、删除文件并查看删除成功与否：
 
-![rman_rm_1](D:\oracle\oracle\oracle\test6\img\rman_rm_1.png)
+![rman_rm_1](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_rm_1.png)
 
-![rman_ls_2](D:\oracle\oracle\oracle\test6\img\rman_ls_2.png)
+![rman_ls_2](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_ls_2.png)
 
 2、尝试打开数据库，此时由于删除了数据文件已经打不开了：
 
-![rman_rm_file](D:\oracle\oracle\oracle\test6\img\rman_rm_file.png)
+![rman_rm_file](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_rm_file.png)
 
 3、查看数据库状态：
 
-![rman_sql_select](D:\oracle\oracle\oracle\test6\img\rman_sql_select.png)
+![rman_sql_select](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_sql_select.png)
 
 4、执行恢复操作：
 
-![rman_restore](D:\oracle\oracle\oracle\test6\img\rman_restore.png)
+![rman_restore](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_restore.png)
 
-![rman_recover](D:\oracle\oracle\oracle\test6\img\rman_recover.png)
+![rman_recover](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_recover.png)
 
 
 
-![rman_open](D:\oracle\oracle\oracle\test6\img\rman_open.png)
+![rman_open](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_open.png)
 
 5、验证文件是否已经恢复成功
 
-![rman_ls_again](D:\oracle\oracle\oracle\test6\img\rman_ls_again.png)
+![rman_ls_again](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_ls_again.png)
 
-![rman_open_success](D:\oracle\oracle\oracle\test6\img\rman_open_success.png)
+![rman_open_success](https://github.com/Gamecero/oracle/raw/main/test6/img/rman_open_success.png)
 
 ## 9.项目总结
 
